@@ -2,9 +2,8 @@ const num = document.querySelector("#num");
 
 let times = 10;
 
-num.innerHTML = times--;
 setTimeout(() => {
-  num.innerHTML = times--;
+  num.innerHTML = "Timer starting now";
   setTimeout(() => {
     num.innerHTML = times--;
     setTimeout(() => {
@@ -22,7 +21,13 @@ setTimeout(() => {
                 setTimeout(() => {
                   num.innerHTML = times--;
                   setTimeout(() => {
-                    num.innerHTML = "Happy Independence day";
+                    num.innerHTML = times--;
+                    setTimeout(() => {
+                      num.innerHTML = times--;
+                      setTimeout(() => {
+                        num.innerHTML = "Happy Independence day";
+                      }, 1000);
+                    }, 1000);
                   }, 1000);
                 }, 1000);
               }, 1000);
@@ -31,5 +36,5 @@ setTimeout(() => {
         }, 1000);
       }, 1000);
     }, 1000);
-  }, 1000);
+  }, 2000);
 }, 1000);
