@@ -13,13 +13,12 @@ body {
 }
 
 #num {
-  font-size: 160px;
+  font-size: 150px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  transition: all 0.3s;
   background-image: linear-gradient(
     to right,
     #ada996,
@@ -30,4 +29,28 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   text-shadow: 5px 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 1200px) {
+  #num {
+    font-size: 130px;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  #num {
+    font-size: 110px;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  #num {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  #num {
+    font-size: 50px;
+  }
 }
