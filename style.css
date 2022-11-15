@@ -19,13 +19,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background-image: linear-gradient(
-    to right,
-    #ada996,
-    #f2f2f2,
-    #dbdbdb,
-    #eaeaea
-  );
+  background-image: linear-gradient(to right, #a88beb, #ebe8fc);
   -webkit-background-clip: text;
   color: transparent;
   text-shadow: 5px 15px 25px rgba(0, 0, 0, 0.4);
